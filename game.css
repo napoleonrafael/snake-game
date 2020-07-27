@@ -1,0 +1,27 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: black;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #score {
+    color: black;
+    margin-right: 30px;
+  }
+  #apples {
+    color: white;
+    margin-right: 30px;
+  }
+  #level {
+    color: white;
+    display: float;
+    clear: left;
+  }
+  canvas {
+    border: 1px solid white;
+    float: right
+  }
